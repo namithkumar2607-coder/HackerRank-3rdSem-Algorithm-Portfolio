@@ -23,7 +23,7 @@ This repository contains my HackerRank algorithm practice for the 3rd semester. 
 | 5 | Mark and Toys | Sort prices and greedily buy cheapest toys | O(N log N) | O(N) |
 
 ## 1. Mini-Max Sum
-
+https://www.hackerrank.com/challenges/mini-max-sum/problem?isFullScreen=true
 ### Approach
 Calculate the total sum of all elements. Find the minimum and maximum values. The minimum sum is obtained by subtracting the maximum value from the total, and the maximum sum is obtained by subtracting the minimum value.
 
@@ -35,7 +35,7 @@ Calculate the total sum of all elements. Find the minimum and maximum values. Th
 01-Mini-Max-Sum/solution.py
 
 ## 2. Birthday Cake Candles
-
+https://www.hackerrank.com/challenges/birthday-cake-candles/problem?isFullScreen=true
 ### Approach
 Find the maximum candle height and count how many candles have that height.
 
@@ -47,7 +47,7 @@ Find the maximum candle height and count how many candles have that height.
 02-Birthday-Cake-Candles/solution.py
 
 ## 3. Insertion Sort Part 1
-
+https://www.hackerrank.com/challenges/insertionsort1/problem?isFullScreen=true
 ### Approach
 Store the last element and compare it with the elements before it. Shift larger elements one position to the right until the correct position is found.
 
@@ -59,7 +59,7 @@ Store the last element and compare it with the elements before it. Shift larger 
 03-Insertion-Sort-Part-1/solution.py
 
 ## 4. Binary Search
-
+Binary Search – Implemented in Python using VS Code
 ### Approach
 The array must be sorted. The middle element is checked against the target. If the target is larger, search the right half; otherwise search the left half. Continue until the element is found or the search range becomes empty.
 
@@ -71,7 +71,7 @@ The array must be sorted. The middle element is checked against the target. If t
 04-Binary-Search/solution.py
 
 ## 5. Mark and Toys
-
+https://www.hackerrank.com/challenges/mark-and-toys/problem?isFullScreen=true
 ### Approach
 Sort the toy prices in ascending order and buy the cheapest toys first while staying within the given budget.
 
